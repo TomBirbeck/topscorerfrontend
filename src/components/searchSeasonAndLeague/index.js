@@ -41,7 +41,7 @@ export default function SearchBySeasonAndLeague({ setPlayers }) {
       return (
         <div style={{display: 'flex', justifyContent: 'center', margin: '0 0 1rem 0', gap: '1rem'}}>
             <form className="league-search-form">
-            <label style={{color: 'white', fontSize: '1.2em'}}>Seach by League: </label>
+            <label style={{color: 'white', fontSize: '1.2em'}}>Select League: </label>
             <select
               name="searchInput"
               className="league-search"
@@ -61,7 +61,7 @@ export default function SearchBySeasonAndLeague({ setPlayers }) {
             </select>
           </form>
           <form className="year-search-form">
-            <label  style={{color: 'white', fontSize: '1.2em'}}>Filter by Season </label>
+            <label  style={{color: 'white', fontSize: '1.2em'}}>Select Season </label>
             <select
               name="searchInput"
               className="season-search"
