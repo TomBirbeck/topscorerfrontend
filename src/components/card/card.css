@@ -8,10 +8,11 @@
 .player-card {
     border: solid 4px #022601;
     max-height: fit-content;
-    width: 20vw;
+    width: 25vw;
     border-radius: 2em;
     /* background-color: orange; */
-    background-color: #F2E422;
+    /* background-color: #F2E422; */
+    backdrop-filter: blur(5px);
     /* text-align: left; */
     padding-bottom: 0.5em;
 }
@@ -28,6 +29,9 @@ object-fit: cover;
 .card-season {
     text-align: left;
     margin: 0.5em 0 0 1em;
+    color: #dc2626;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 .card-info {
@@ -38,4 +42,9 @@ object-fit: cover;
     height: 35%;
     /* background-color: #c7bb16; */
     text-align: left;
+    color: #dc2626;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: rgb(15, 14, 14); */
 }

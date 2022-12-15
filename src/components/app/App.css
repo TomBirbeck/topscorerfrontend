@@ -4,11 +4,15 @@
 
 .App {
   text-align: center;
-  /* background-color: #BF1B39; */
   background-image: url('../assets/background.jpg');
   background-size:cover;
-  min-height: 100vh;
-  margin: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-blend-mode:soft-light;
+  height: 100%;
+  width: 100%;
+  display: table;
 }
 
 .App-logo {
