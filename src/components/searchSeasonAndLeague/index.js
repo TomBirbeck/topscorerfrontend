@@ -43,6 +43,7 @@ export default function SearchBySeasonAndLeague({ setPlayers }) {
       style={{
         display: 'flex',
         justifyContent: 'center',
+        alignItems:'center',
         margin: '0 0 4rem 0',
         gap: '1rem',
       }}
@@ -119,9 +120,10 @@ export default function SearchBySeasonAndLeague({ setPlayers }) {
       <button
         style={{
           color: 'white',
-          fontSize: '1.1em',
+          fontSize: '1.2em',
           backgroundColor: 'green',
           borderRadius: '0.5em',
+          marginTop:'0.5em'
         }}
         onClick={() => {
           handleSearch();
@@ -132,9 +134,10 @@ export default function SearchBySeasonAndLeague({ setPlayers }) {
       <button
         style={{
           color: 'white',
-          fontSize: '1.1em',
+          fontSize: '1.2em',
           backgroundColor: 'red',
           borderRadius: '0.5em',
+          marginTop:'0.5em'
         }}
         onClick={() => {
           handleClear();

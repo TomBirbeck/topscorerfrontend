@@ -2,4 +2,12 @@
     margin-bottom: 0.5em;
     font-size: 4em;
     color: black;
+    text-align: center;
+    text-combine-upright:inherit;
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    align-items: center;
+     -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: rgb(241, 237, 237);
 }
