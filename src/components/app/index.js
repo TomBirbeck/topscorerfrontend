@@ -8,7 +8,8 @@ function App() {
 const [players, setPlayers] = useState([]);
 
   return (
-    <div className="App">
+    <div className="App"
+>
       <Header/>
       <SearchBySeasonAndLeague setPlayers={setPlayers} />
       <PlayerCard players={players}/>

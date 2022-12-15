@@ -4,9 +4,10 @@
 
 .App {
   text-align: center;
-  background-color: #BF1B39;
+  /* background-color: #BF1B39; */
+  background-image: url('../assets/background.jpg');
+  background-size:cover;
   min-height: 100vh;
-  /* background-color: grey; */
   margin: 0;
 }
 
