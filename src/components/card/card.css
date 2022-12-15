@@ -6,15 +6,17 @@
 }
 
 .player-card {
-    border: solid 4px #022601;
+    /* border: solid 4px #022601; */
     max-height: fit-content;
     width: 25vw;
     border-radius: 2em;
     /* background-color: orange; */
     /* background-color: #F2E422; */
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(4px);
     /* text-align: left; */
     padding-bottom: 0.5em;
+  border: 1px solid rgba(255,255,255,0.2)
+
 }
 
 .card-image {
@@ -22,7 +24,8 @@ height: 50%;
 width: 70%;
 border-radius: 1em;
 margin: 0.5em 0;
-border: solid 4px #022601;
+border: 1px solid rgba(255,255,255,0.2);
+/* border: solid 4px #022601; */
 object-fit: cover;
 }
 

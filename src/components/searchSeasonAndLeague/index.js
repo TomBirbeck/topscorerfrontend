@@ -43,7 +43,7 @@ export default function SearchBySeasonAndLeague({ setPlayers }) {
       style={{
         display: 'flex',
         justifyContent: 'center',
-        margin: '0 0 1rem 0',
+        margin: '0 0 4rem 0',
         gap: '1rem',
       }}
     >
