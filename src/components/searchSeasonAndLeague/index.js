@@ -49,7 +49,7 @@ export default function SearchBySeasonAndLeague({ setPlayers }) {
       }}
     >
       <form className='league-search-form'>
-        <label style={{ color: '#dc2626', fontSize: '1.2em', fontWeight: 'bold' }}>
+        <label style={{ color: '#dc2626', fontSize: '1.5em', fontWeight: 'bold' }}>
           Select League:{' '}
         </label>
         <select
