@@ -3,6 +3,7 @@ import './App.css';
 import PlayerCard from '../../components/card'
 import Header from '../../components/header'
 import SearchBySeasonAndLeague from '../searchSeasonAndLeague';
+import Footer from '../Footer';
 
 function App() {
 const [players, setPlayers] = useState([]);
@@ -13,6 +14,7 @@ const [players, setPlayers] = useState([]);
       <Header/>
       <SearchBySeasonAndLeague setPlayers={setPlayers} />
       <PlayerCard players={players}/>
+      <Footer/>
     </div>
   );
 }
